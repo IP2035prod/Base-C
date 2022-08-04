@@ -48,8 +48,9 @@ int chet(int in)
 int main()
 {
     int in;
-    printf("Введите целое число\n");
+    //printf("Введите целое число\n");
     scanf("%d", &in);
     chet(in);
     return 0;
 }
+

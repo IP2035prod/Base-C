@@ -62,17 +62,19 @@ int main()
 {
     int in;
     float out;
-    printf("Введите целое число\n");
+    //printf("Введите целое число\n");
     scanf("%d", &in);
     if (in <= 90 && in >= 0) 
     {
         out = f(in);
-        printf("Sin %d = %.3f.\n", in, out);
+        //printf("Sin %d = %.3f.\n", in, out);
+        printf("%.3f", out);
     }
     else
     {
-        printf("Некорректное значение.\n");
+        //printf("Некорректное значение.\n");
     }
     return 0;
 }
+
 

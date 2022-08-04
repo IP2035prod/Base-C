@@ -29,8 +29,9 @@ void printsimple(int in) //"Решето Эратосфена"
 int main()
 {
     int in;
-    printf("Введите целое число\n");
+    //printf("Введите целое число\n");
     scanf("%d", &in);
     printsimple (in);
     return 0;
 }
+

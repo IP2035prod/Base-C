@@ -35,15 +35,17 @@ int main()
 {
     int in;
     int out;
-    printf("Введите целое число не больше 20.\n");
+    //printf("Введите целое число не больше 20.\n");
     scanf("%d", &in);
     if (in <= 20 && in >= 0)
     {
         out = f(in);
-        printf("Факториал числа %d = %d.\n", in, out);
+        //printf("Факториал числа %d = %d.\n", in, out);
+        printf("%d", out);
     }
     else
     {
         printf("Неккоректный ввод.\n");
     }
 }
+

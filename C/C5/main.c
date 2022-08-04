@@ -33,10 +33,12 @@ int main()
 {
     int in;
     int out;
-    printf("Введите целое число.\n");
+    //printf("Введите целое число.\n");
     scanf("%d", &in);
    
     out = f(in);
-    printf("Сумма чисел от 1 до %d = %d.\n", in, out);
+    //printf("Сумма чисел от 1 до %d = %d.\n", in, out);
+    printf("%d", out);
    
 }
+

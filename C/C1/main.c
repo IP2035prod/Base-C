@@ -18,9 +18,11 @@ int main()
 {
     int in;
     int out;
-    printf("Введите целое число.\n");
+    //printf("Введите целое число.\n");
     scanf("%d", &in);
     out = module (in);
-    printf("Модуль числа %d = %d. \n", in, out);
+    //printf("Модуль числа %d = %d. \n", in, out);
+    printf("%d", out);
     return 0;
 }
+

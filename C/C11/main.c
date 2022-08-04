@@ -47,10 +47,12 @@ int main()
 {
     int N1, N2;
     int out;
-    printf("Введите целые положительные числа\n");
+    //printf("Введите целые положительные числа\n");
     scanf("%d %d", &N1, &N2);
     out = NOD (N1, N2);
-    printf("НОД чисел %d и %d = %d.\n", N1, N2, out);
+    //printf("НОД чисел %d и %d = %d.\n", N1, N2, out);
+    printf("%d", out);
     return 0;
 }
+
 
